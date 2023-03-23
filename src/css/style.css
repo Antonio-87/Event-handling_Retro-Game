@@ -1,0 +1,53 @@
+h1 {
+    color: #e21717;
+    text-align: center;
+}
+
+h2 {
+    font-size: 35px;
+    margin-left: 50px;
+    color: #242121;
+    text-align: center;
+    float: left;
+}
+
+.playing-field {
+    cursor: url("/pic/free-icon-hammer-game-8146659\ \(1\).png"), pointer;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto 420px;
+    width: 500px;
+    height: 500px;
+}
+
+.place {
+    display: inline-block;
+    background-color: darkolivegreen;
+    width: 121px;
+    height: 121px;
+    border: 2px solid black ;
+    border-radius: 10%;
+
+}
+
+.visible {
+    display: none;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+}
+
+p {
+    position: absolute;
+    font-size: 120px;
+    top: 10%;
+    left: 5%;
+    color: #e21717;
+}
+
+.lose {
+    display: none;
+}
