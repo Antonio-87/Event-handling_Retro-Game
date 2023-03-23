@@ -1,4 +1,4 @@
-name: DEMO
+name: Event Hadling
 
 on: [push, pull_request]
 
